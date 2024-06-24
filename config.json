@@ -1,6 +1,6 @@
 {
     "title": "Panda-Z的代码空间",
-    "onePageListNum": 15,
+    "onePageListNum": 10,
     "commentLabelColor": "#006b75",
     "yearColorList": ["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
     "email": "2558891266@qq.com",
@@ -21,7 +21,7 @@
     "urlMode": "pinyin",
     "style": "",
     "script": "",
-    "indexStyle": "<style>body {background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 100%), url('https://raw.githubusercontent.com/Panda-Z-Coding/ONE-Minute-java/main/wallhaven-9mjoy1.png'); background-repeat: no-repeat; background-size: cover;} #header h1 {position: absolute;left: 50%;transform: translateX(-50%);display: flex;flex-direction: column;align-items: center;margin-top: 200px;}.avatar {width: 200px;height: 200px;}.title-right {margin-left: 50%;margin-top: 500px;transform: translateX(-50%);}#header h1 a {margin-top: 30px;}</style>";
+    "indexStyle": "<style>#header h1 {position: absolute;left: 50%;transform: translateX(-50%);display: flex;flex-direction: column;align-items: center;margin-top: 200px;}.avatar {width: 200px;height: 200px;}.title-right {margin-left: 50%;margin-top: 500px;transform: translateX(-50%);}#header h1 a {margin-top: 30px;}</style>";
     "indexScript": "",
     "showPostSource": 1
 }
