@@ -5,8 +5,8 @@
     "GMEEK_VERSION":"last",
     "bottomText":"欢迎你的到来💕",
     "urlMode":"pinyin",
-    "style":"",
-    "script":"",
+    "style":"<style>#postBody{font-size:20px}</style>",
+    "script":"<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>",
     "indexStyle":"",
     "indexScript":"",
     "showPostSource":1
