@@ -5,10 +5,9 @@
     "GMEEK_VERSION":"last"
     "startSite":"06/22/2024",
     "bottomText":"欢迎你的到来❤️",
-    "urlMode":"pinyin",
     "style":"",
     "script":"",
     "indexStyle":"",
     "indexScript":"",
-    "showPostSource":0,
+    "showPostSource":1,
 }
