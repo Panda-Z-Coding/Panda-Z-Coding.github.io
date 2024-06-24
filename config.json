@@ -21,7 +21,7 @@
     "urlMode": "pinyin",
     "style": "",
     "script": "",
-    "indexStyle": "body {background: url('https://github.com/Panda-Z-Coding/ONE-Minute-java/blob/main/wallhaven-9mjoy1.png?raw=true') no-repeat center top / cover;}<style>#header h1 {position: absolute;left: 50%;transform: translateX(-50%);display: flex;flex-direction: column;align-items: center;margin-top: 50px;font-family: Courier;}.avatar {width: 200px;height: 200px;}.title-right {margin-left: 50%;margin-top: 400px;transform: translateX(-50%);}#header h1 a {margin-top: 30px;}</style>",
+   "indexStyle": "body {background: url('https://raw.githubusercontent.com/Panda-Z-Coding/ONE-Minute-java/main/wallhaven-9mjoy1.png') no-repeat center top / cover;}"
     "indexScript": "",
     "showPostSource": 1
 }
