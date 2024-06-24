@@ -21,7 +21,7 @@
     "urlMode": "pinyin",
     "style": "",
     "script": "",
-    "indexStyle": "<style>body {background: url('https://raw.githubusercontent.com/Panda-Z-Coding/ONE-Minute-java/main/wallhaven-9mjoy1.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; /* 添加渐变效果 */ background-image: linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.5));}#header h1 {position: absolute;left: 50%;transform: translateX(-50%);display: flex;flex-direction: column;align-items: center;margin-top: 200px;}.avatar {width: 200px;height: 200px;}.title-right {margin-left: 50%;margin-top: 500px;transform: translateX(-50%);}#header h1 a {margin-top: 30px;}</style>",
+    "indexStyle": "<style>body {background: url('https://github.com/Panda-Z-Coding/ONE-Minute-java/blob/main/Snipaste_2024-06-24_21-49-24.png?raw=true') no-repeat;background-size: contain;background-position: center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;background-image: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255, 192, 203, 0.9));}#header h1 {position: absolute;left: 50%;transform: translateX(-50%);display: flex;flex-direction: column;align-items: center;margin-top: 200px;}.avatar {width: 200px;height: 200px;}.title-right {margin-left: 50%;margin-top: 500px;transform: translateX(-50%);}#header h1 a {margin-top: 30px;}</style>",
     "indexScript": "",
     "showPostSource": 1
 }
