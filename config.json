@@ -4,10 +4,11 @@
     "avatarUrl":"https://avatars.githubusercontent.com/u/157597971?s=400&u=c68a9ae6636ffca3ca3119ccdabba64a00b37e9b&v=4",
     "GMEEK_VERSION":"last",
     "bottomText":"欢迎你的到来💕",
+    "startSite":"06/22/2024",
     "urlMode":"pinyin",
-    "style":"<style>#header {position: absolute;left: 50%;transform: translateX(-50%);display: flex;flex-direction: column;align-items: center;margin-top: 200px;}.avatar {width: 200px;height: 200px;}.title-right {margin-left: 50%;margin-top: 500px;transform: translateX(-50%);}#header h1 a {margin-top: 30px;}</style>",
+    "style":"",
     "script":"",
-    "indexStyle":"",
+    "indexStyle":"<style>#header h1 {position: absolute;left: 50%;transform: translateX(-50%);display: flex;flex-direction: column;align-items: center;margin-top: 200px;}.avatar {width: 200px;height: 200px;}.title-right {margin-left: 50%;margin-top: 500px;transform: translateX(-50%);}#header h1 a {margin-top: 30px;}</style>",
     "indexScript":"",
     "showPostSource":1
 }
