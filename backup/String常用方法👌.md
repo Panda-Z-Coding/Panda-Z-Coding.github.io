@@ -3,17 +3,17 @@
 ### 「操作String的方法」
 
 ```java
-public int length()  // 获取长度
-public boolean equals(String s) // 查看两个String对象是否相等
-public boolean startsWith(String s) // 前缀是否是s
-public boolean endsWith(String s) // 后缀是否是s
-public int compareTo(String s) // 通过字典序比较，返回正值、0、负数
-public boolean contains(String s) // 判断String对象里是否含有 s
-public int indexOf(String s) // 返回首次出现s的位置
-public int lastIndexOf(String s) // 返回最后一次出现s的位置
-public String subString(int startpoint) // 获得一个从该位置到最后的新String对象
-public String subString(int start,int end) // 类似上一个，可以指定最后的位置
-public String trim() // 获得该对象去除前后空格的新对象
+public int length()                                                 // 获取长度
+public boolean equals(String s)                            // 查看两个String对象是否相等
+public boolean startsWith(String s)                      // 前缀是否是s
+public boolean endsWith(String s)                       // 后缀是否是s
+public int compareTo(String s)                             // 通过字典序比较，返回正值、0、负数
+public boolean contains(String s)                        // 判断String对象里是否含有 s
+public int indexOf(String s)                                  // 返回首次出现s的位置
+public int lastIndexOf(String s)                            // 返回最后一次出现s的位置
+public String subString(int startpoint)                 // 获得一个从该位置到最后的新String对象
+public String subString(int start,int end)             // 类似上一个，可以指定最后的位置
+public String trim()                                              // 获得该对象去除前后空格的新对象
 
 ```
 
