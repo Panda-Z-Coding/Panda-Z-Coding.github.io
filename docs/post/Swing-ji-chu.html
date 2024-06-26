@@ -9,14 +9,14 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="# **`GUI常用😭`**
+<meta name="description" content="# GUI常用😭
 
 ### 容器（Containers）
 
 #### JFrame
 - `setTitle(String title)`：设置窗口标题。">
 <meta property="og:title" content="Swing基础">
-<meta property="og:description" content="# **`GUI常用😭`**
+<meta property="og:description" content="# GUI常用😭
 
 ### 容器（Containers）
 
@@ -80,7 +80,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h1><strong><code class="notranslate">GUI常用😭</code></strong></h1>
+<div class="markdown-body" id="postBody"><h1>GUI常用😭</h1>
 <h3>容器（Containers）</h3>
 <h4>JFrame</h4>
 <ul>
@@ -106,6 +106,76 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li><code class="notranslate">setTabPlacement(int placement)</code>：设置选项卡的位置（顶部、底部、左侧、右侧）。</li>
 <li><code class="notranslate">setSelectedIndex(int index)</code>：设置当前选中的选项卡索引。</li>
 <li><code class="notranslate">setTabComponentAt(int index, Component comp)</code>：在指定索引位置设置选项卡组件。</li>
+</ul>
+<h3>布局 （Layout）</h3>
+<ul>
+<li><code class="notranslate">FlowLayout</code>布局
+<ul>
+<li>
+<p><code class="notranslate">FlowLayout()</code>：创建一个默认的流布局管理器，居中对齐，水平和垂直间距为5个像素。</p>
+</li>
+<li>
+<p><code class="notranslate">FlowLayout(int align)</code>：创建一个指定对齐方式的流布局管理器，对齐方式可以是 <code class="notranslate">FlowLayout.LEFT</code>、<code class="notranslate">FlowLayout.CENTER</code>、<code class="notranslate">FlowLayout.RIGHT</code>。</p>
+</li>
+<li>
+<p><code class="notranslate">FlowLayout(int align, int hgap, int vgap)</code>：创建一个指定对齐方式、水平间距和垂直间距的流布局管理器。</p>
+</li>
+<li>
+<p><code class="notranslate">BorderLayout</code></p>
+<ul>
+<li><code class="notranslate">BorderLayout()</code>：创建一个默认的边界布局管理器，没有间距。</li>
+<li><code class="notranslate">BorderLayout(int hgap, int vgap)</code>：创建一个指定水平和垂直间距的边界布局管理器。</li>
+<li>组件添加时需要指定位置，如 <code class="notranslate">add(Component comp, Object constraints)</code>，其中 <code class="notranslate">constraints</code> 可以是 <code class="notranslate">BorderLayout.NORTH</code>、<code class="notranslate">BorderLayout.SOUTH</code>、<code class="notranslate">BorderLayout.EAST</code>、<code class="notranslate">BorderLayout.WEST</code>、<code class="notranslate">BorderLayout.CENTER</code>。</li>
+</ul>
+</li>
+<li>
+<p><code class="notranslate">GridLayout</code></p>
+<ul>
+<li><code class="notranslate">GridLayout(int rows, int cols)</code>：创建一个指定行数和列数的网格布局管理器。</li>
+<li><code class="notranslate">GridLayout(int rows, int cols, int hgap, int vgap)</code>：创建一个指定行数、列数、水平间距和垂直间距的网格布局管理器。</li>
+<li>所有单元格大小相同，组件按顺序填充单元格。</li>
+</ul>
+</li>
+<li>
+<p><code class="notranslate">GridBagLayout</code></p>
+<ul>
+<li><code class="notranslate">GridBagLayout()</code>：创建一个网格包布局管理器，是最灵活的布局管理器，但也最复杂。</li>
+<li>需要使用 <code class="notranslate">GridBagConstraints</code> 来指定组件的位置、大小、填充方式等。</li>
+</ul>
+</li>
+<li>
+<p><code class="notranslate">BoxLayout</code></p>
+<ul>
+<li><code class="notranslate">BoxLayout(Container target, int axis)</code>：创建一个箱式布局管理器，可以指定布局的轴向，如 <code class="notranslate">BoxLayout.X_AXIS</code>（水平）或 <code class="notranslate">BoxLayout.Y_AXIS</code>（垂直）。</li>
+<li>组件可以沿着一个轴向排列，可以设置组件之间的间距。</li>
+</ul>
+</li>
+<li>
+<p><code class="notranslate">CardLayout</code></p>
+<ul>
+<li><code class="notranslate">CardLayout()</code>：创建一个卡片布局管理器，用于管理多个组件，每次只显示一个组件，类似于卡片堆叠。</li>
+<li>可以使用 <code class="notranslate">show(Container parent, String name)</code> 方法来显示指定的组件。</li>
+</ul>
+</li>
+<li>
+<p><code class="notranslate">SpringLayout</code></p>
+<ul>
+<li><code class="notranslate">SpringLayout()</code>：创建一个弹簧布局管理器，使用弹簧模型来控制组件的位置和大小。</li>
+<li>需要使用 <code class="notranslate">SpringLayout.Constraints</code> 来定义组件的约束。</li>
+</ul>
+</li>
+<li>
+<p><code class="notranslate">GroupLayout</code></p>
+<ul>
+<li><code class="notranslate">GroupLayout(Container container)</code>：创建一个分组布局管理器，用于复杂的布局，通常与 <code class="notranslate">GroupLayout.DEFAULT_CONSTRAINTS</code> 一起使用。</li>
+<li>可以水平和垂直分组组件，支持自动调整大小和位置。</li>
+<li><code class="notranslate">setBackground(Color bg)</code>：设置面板的背景颜色。</li>
+<li><code class="notranslate">setBorder(Border border)</code>：设置面板的边框。</li>
+<li><code class="notranslate">remove(Component comp)</code>：从面板移除组件。</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <h3>组件（Components）</h3>
 <h4>JButton</h4>
