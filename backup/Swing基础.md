@@ -31,33 +31,33 @@
     - `FlowLayout(int align)`：创建一个指定对齐方式的流布局管理器，对齐方式可以是 `FlowLayout.LEFT`、`FlowLayout.CENTER`、`FlowLayout.RIGHT`。
     - `FlowLayout(int align, int hgap, int vgap)`：创建一个指定对齐方式、水平间距和垂直间距的流布局管理器。
 
-  - `BorderLayout`
+- `BorderLayout`
     - `BorderLayout()`：创建一个默认的边界布局管理器，没有间距。
     - `BorderLayout(int hgap, int vgap)`：创建一个指定水平和垂直间距的边界布局管理器。
     - 组件添加时需要指定位置，如 `add(Component comp, Object constraints)`，其中 `constraints` 可以是 `BorderLayout.NORTH`、`BorderLayout.SOUTH`、`BorderLayout.EAST`、`BorderLayout.WEST`、`BorderLayout.CENTER`。
 
-  - `GridLayout`
+- `GridLayout`
     - `GridLayout(int rows, int cols)`：创建一个指定行数和列数的网格布局管理器。
     - `GridLayout(int rows, int cols, int hgap, int vgap)`：创建一个指定行数、列数、水平间距和垂直间距的网格布局管理器。
     - 所有单元格大小相同，组件按顺序填充单元格。
 
-  - `GridBagLayout`
+- `GridBagLayout`
     - `GridBagLayout()`：创建一个网格包布局管理器，是最灵活的布局管理器，但也最复杂。
     - 需要使用 `GridBagConstraints` 来指定组件的位置、大小、填充方式等。
 
-  - `BoxLayout`
+- `BoxLayout`
     - `BoxLayout(Container target, int axis)`：创建一个箱式布局管理器，可以指定布局的轴向，如 `BoxLayout.X_AXIS`（水平）或 `BoxLayout.Y_AXIS`（垂直）。
     - 组件可以沿着一个轴向排列，可以设置组件之间的间距。
 
-  - `CardLayout`
+- `CardLayout`
     - `CardLayout()`：创建一个卡片布局管理器，用于管理多个组件，每次只显示一个组件，类似于卡片堆叠。
     - 可以使用 `show(Container parent, String name)` 方法来显示指定的组件。
 
-  - `SpringLayout`
+- `SpringLayout`
     - `SpringLayout()`：创建一个弹簧布局管理器，使用弹簧模型来控制组件的位置和大小。
     - 需要使用 `SpringLayout.Constraints` 来定义组件的约束。
 
-  - `GroupLayout`
+- `GroupLayout`
     - `GroupLayout(Container container)`：创建一个分组布局管理器，用于复杂的布局，通常与 `GroupLayout.DEFAULT_CONSTRAINTS` 一起使用。
     - 可以水平和垂直分组组件，支持自动调整大小和位置。
     - `setBackground(Color bg)`：设置面板的背景颜色。
