@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Panda-Z的代码空间</title><link>https://Panda-Z-Coding.github.io</link><description>芸生浮梦,忆昔往已...</description><copyright>Panda-Z的代码空间</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/157597971?s=400&amp;u=a97f3580e282268c6eafe9d807c5b1dfdf02d1d7&amp;v=4</url><title>avatar</title><link>https://Panda-Z-Coding.github.io</link></image><lastBuildDate>Thu, 27 Jun 2024 03:09:19 +0000</lastBuildDate><managingEditor>Panda-Z的代码空间</managingEditor><ttl>60</ttl><webMaster>Panda-Z的代码空间</webMaster><item><title>GUI小栗子-选择题</title><link>https://Panda-Z-Coding.github.io/post/GUI-xiao-li-zi---xuan-ze-ti.html</link><description># `一个简单的GUI程序`&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Panda-Z的代码空间</title><link>https://Panda-Z-Coding.github.io</link><description>芸生浮梦,忆昔往已...</description><copyright>Panda-Z的代码空间</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/157597971?s=400&amp;u=a97f3580e282268c6eafe9d807c5b1dfdf02d1d7&amp;v=4</url><title>avatar</title><link>https://Panda-Z-Coding.github.io</link></image><lastBuildDate>Thu, 27 Jun 2024 03:45:59 +0000</lastBuildDate><managingEditor>Panda-Z的代码空间</managingEditor><ttl>60</ttl><webMaster>Panda-Z的代码空间</webMaster><item><title>I/O流</title><link>https://Panda-Z-Coding.github.io/post/I-O-liu.html</link><description># **`I/O流-简易版😉`**&#13;
+&#13;
+&gt; 😋Live is suck but you will like it&#13;
+&#13;
+### 1. File类 - _用来获取文件信息_&#13;
+- **获取文件属性**：&#13;
+  - `getName()`：获取文件名。</description><guid isPermaLink="true">https://Panda-Z-Coding.github.io/post/I-O-liu.html</guid><pubDate>Thu, 27 Jun 2024 03:45:33 +0000</pubDate></item><item><title>GUI小栗子-选择题</title><link>https://Panda-Z-Coding.github.io/post/GUI-xiao-li-zi---xuan-ze-ti.html</link><description># `一个简单的GUI程序`&#13;
 &#13;
 附带了注释了，应该能讲明白&#13;
 &#13;
