@@ -2,7 +2,7 @@
 
 ### 容器（Containers）
 
-#### JFrame
+#### JFrame - 默认布局：BorderLatout
 - `setTitle(String title)`：设置窗口标题。
 - `setSize(int width, int height)`：设置窗口大小。
 - `setLocation(int x, int y)`：设置窗口在屏幕上的位置。
@@ -11,7 +11,7 @@
 - `getContentPane().add(Component comp)`：向窗口添加组件。
 - `setResizable(boolean resizable)`：设置窗口是否可以调整大小。
 
-#### JPanel
+#### JPanel - 默认布局：FlowLayout
 - `add(Component comp)`：向面板添加组件。
 - `setLayout(LayoutManager manager)`：设置面板的布局管理器。
 - `setBackground(Color bg)`：设置面板的背景颜色。
