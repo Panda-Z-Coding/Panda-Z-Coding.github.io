@@ -55,7 +55,7 @@ public class ExamGUI {
         resultLabel.setBounds(120, 140, 200, 30);
         panel.add(resultLabel);
 
-        submitButton.addActionListener(new ActionListener() {   // 把submitButton注册成为一个监视器，匿名类做监视器，就用再去写一个类了
+        submitButton.addActionListener(new ActionListener() {   // 把submitButton注册成为一个监视器，匿名类做监视器，就不用再去写一个类了
             @Override                                           // 这一个方法里面要传入的是ActionListener的类或者子类
             public void actionPerformed(ActionEvent e) {        // 所以这里用 `匿名类` 重写了actionPerformed方法``
                 if (option1.isSelected()) {                     // .isSelected() 用来查看谁被点击了
