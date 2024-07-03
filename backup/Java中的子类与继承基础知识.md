@@ -128,7 +128,7 @@ final int f = 0  //f 不能被修改
 - **语法** 父类 类名 = new 子类;
 - **对象与上转型对象**
   
-![对应关系](https://github.com/Leno0z/MyBolg/assets/157597971/b6651077-4915-4cb6-9fa7-593baa846787)
+![对应关系](https://img-blog.csdnimg.cn/direct/7690105e41c54675a71d7ce23ee9e4b6.png#pic_center)
 
 ```java
 Parent p = new Child();
