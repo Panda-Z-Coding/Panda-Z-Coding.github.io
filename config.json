@@ -20,7 +20,7 @@
     "startSite": "06/22/2024",
     "urlMode": "pinyin",
     "style": "",
-    "script": "",
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "indexStyle": "",
     "indexScript": "",
     "showPostSource": 1
